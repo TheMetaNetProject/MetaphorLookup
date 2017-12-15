@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?eclipse version="3.0"?>
+
+<plugin>
+	<extension id="MetaLookupViewComponent"
+				point="org.protege.editor.core.application.ViewComponent">
+		<label value="Metaphor Lookup View Component" />
+		<class value="edu.berkeley.icsi.metanet.metalookup.Main" />
+		<category value="@org.protege.ontologycategory" />
+	</extension>
+	<extension id="MetaLookup"
+				point="org.protege.editor.core.application.WorkspaceTab">
+		<label value="Metaphor Lookup" />
+		<class value="org.protege.editor.owl.ui.OWLWorkspaceViewsTab" />
+		<index value="X" />
+		<editorKitId value="OWLEditorKit" />
+		<defaultViewConfigFileName value="viewconfig-metalookup.xml" />
+	</extension>
+</plugin>

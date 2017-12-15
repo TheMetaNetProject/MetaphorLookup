@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>edu.berkeley.icsi.metanet.metalookup</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.pde.ManifestBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.pde.SchemaBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.pde.PluginNature</nature>
+	</natures>
+	<variableList>
+		<variable>
+			<name>PROTEGE</name>
+			<value>file:/Applications/Protege_3.5_beta/plugins</value>
+		</variable>
+		<variable>
+			<name>Plugins</name>
+			<value>file:/Applications/Eclipse/plugins</value>
+		</variable>
+	</variableList>
+</projectDescription>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <VSNode splits="1.0">
+        <CNode>
+            <Component label="Metaphor Lookup View Component">
+                <Property id="pluginId" value="edu.berkeley.icsi.metanet.metalookup.MetaLookupViewComponent"/>
+            </Component>
+        </CNode>
+    </VSNode>
+</layout>

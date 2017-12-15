@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: 1.6.0_37-b06-434-11M3909 (Apple Inc.)
+Bundle-ManifestVersion: 2
+Bundle-Name: Metaphor Lookup
+Bundle-SymbolicName: edu.berkeley.icsi.metanet.metalookup;singleton:=t
+ rue
+Update-Url: https://metaphor.icsi.berkeley.edu/metaphor/protege/metavi
+ sual/update.properties
+Bundle-Category: protege
+Bundle-Description: Metaphor lookup plugin for MetaNet Metaphor projec
+ t
+Bundle-Vendor: UC Berkeley International Computer Science Institute
+Bundle-DocURL: icsi.berkeley.edu
+Bundle-Version: 1.0.0.2013_02_20_1116
+Bundle-Activator: org.protege.editor.core.plugin.DefaultPluginActivato
+ r 
+Bundle-ClassPath: .,lib/swingx-all-1.6.4.jar
+Require-Bundle: org.protege.editor.owl,org.semanticweb.owl.owlapi,org.
+ protege.editor.core.application
+Import-Package: javax.imageio,javax.swing,javax.swing.border,javax.swi
+ ng.event,javax.swing.filechooser,javax.swing.plaf,javax.swing.table,j
+ avax.swing.text,javax.swing.text.html,javax.swing.tree,javax.xml,java
+ x.xml.parsers,javax.xml.stream,javax.xml.transform,javax.xml.transfor
+ m.dom,javax.xml.transform.stream,javax.xml.xpath,org.w3c.dom
+Built-By: Kenneth
+
